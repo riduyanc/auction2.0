@@ -1,0 +1,160 @@
+:root {
+  --primary: #6c63ff;
+  --accent: #007bff;
+  --bg: #f8f9fa;
+  --footer-bg: #23272b;
+}
+body {
+  background: var(--bg);
+  font-family: 'Inter', sans-serif;
+}
+.navbar {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.navbar-nav .nav-link {
+  color: #23272b;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover, .footer-link:hover {
+  color: var(--primary) !important;
+}
+.hero-section {
+  background: linear-gradient(120deg, var(--accent) 60%, var(--primary) 100%);
+  color: #fff;
+  padding: 60px 0 40px 0;
+  border-radius: 0 0 2rem 2rem;
+}
+.hero-section h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.hero-section p {
+  font-size: 1.2rem;
+}
+.search-card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+.auction-listings {
+  margin-top: 2rem;
+}
+.auction-card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  transition: transform 0.2s;
+}
+.auction-card:hover {
+  transform: translateY(-6px) scale(1.02);
+}
+.auction-card img {
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  height: 180px;
+}
+.btn-bid {
+  background: var(--primary);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn-bid:hover {
+  background: #574fd6;
+}
+footer {
+  background: var(--footer-bg);
+  color: #fff;
+}
+.footer-link {
+  color: #fff;
+  transition: color 0.2s;
+}
+.footer-link:hover {
+  color: var(--primary) !important;
+}
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 40px 0 20px 0;
+  }
+  .auction-card img {
+    height: 140px;
+  }
+  .auction-listings h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.nav-link {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color:rgba(13, 10, 25, 1);
+  margin-left: 20px ;
+}
+.nav-links {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-left: 20px ;
+  color: rgba(154, 158, 167, 1);
+  text-decoration: none;
+}
+
+.hero-section{
+    background-image: url(./Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+.hero-section div h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero-section div p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+form select,
+form button {
+  min-height: 45px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #6c4ccf; /* Customize your purple */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #553bbd;
+}
+.logo{
+    background-image: url(./Makes.png);
+    background-repeat: no-repeat;   
+    background-size: cover; 
+    width: 997px;
+   height: 38px;
+   top: 783px;
+    left: 218px;
+}
